@@ -7,15 +7,23 @@ public class Dog {
 	private int age;
 	Scanner scn = new Scanner(System.in);
 	
-	public enum Breed{
-		Taksa;
-		
-		Breed breed;
-		
-	}
-
 	public Dog() {
 		input(scn);
+	}
+	
+	public Dog(String name, Breed breed, int age) {
+		super();
+		this.name = name;
+		this.breed = breed;
+		this.age = age;
+	}
+
+	public boolean ageDogs(Dog d){
+		if(this.age>d.age){
+			return true;
+		}
+		return false;
+		
 	}
 
 	private void input(Scanner scn) {
@@ -23,7 +31,7 @@ public class Dog {
 		name = scn.nextLine();
 		System.out.println("Input age");
 		age = Integer.parseInt(scn.nextLine());
-		breed = Breed.Taksa;
+
 		
 	}
 
@@ -36,12 +44,11 @@ public class Dog {
 	}
 
 	public Breed getBreed() {
-		return Breed.Taksa;
+		return Breed.Boxer;
 	}
 
-	public void setBreed(String breed) {
-		Breed a = Breed.Taksa;
-		this.breed = a;
+	public void  setBreed(Breed breed) {
+		this.breed = breed;
 		
 	}
 
@@ -57,5 +64,41 @@ public class Dog {
 	public String toString() {
 		return "Dog [name = " + name + ", breed = " + breed + ", age = " + age + "]";
 	}
+
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + age;
+		result = prime * result + ((breed == null) ? 0 : breed.hashCode());
+		result = prime * result + ((name == null) ? 0 : name.hashCode());
+		return result;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Dog other = (Dog) obj;
+		if (name == null) {
+			if (other.name != null)
+				return false;
+		} else if (!name.equals(other.name))
+			return false;
+		return true;
+	}
+	public boolean ageDog(Dog dog){
+		if (this.age > dog.age){
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
+
 
 }
