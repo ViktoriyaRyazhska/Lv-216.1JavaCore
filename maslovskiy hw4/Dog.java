@@ -31,6 +31,20 @@ public class Dog {
 		name = scn.nextLine();
 		System.out.println("Input age");
 		age = Integer.parseInt(scn.nextLine());
+		System.out.println("Input breed (boxer/borzoi/dvornyaga) in lowercase");
+		breed = Breed.valueOf(scn.nextLine());
+		String breed1 = breed.toString();
+		
+		switch(breed1.toLowerCase()){
+			case "boxer": breed = Breed.boxer;
+		break;
+			case "borzoi":breed = Breed.borzoi;
+		break;
+			case "dvornyaga":breed = Breed.dvornyaga;
+		default:
+			System.out.println("Incorrect breed");
+		}
+		
 
 		
 	}
@@ -44,7 +58,7 @@ public class Dog {
 	}
 
 	public Breed getBreed() {
-		return Breed.Boxer;
+		return breed;
 	}
 
 	public void  setBreed(Breed breed) {
