@@ -18,7 +18,7 @@ public class Main {
 		System.out.println("The oldest dog is : "+Dog.oldestDog(dog1, dog2, dog3).getName());
 		System.out.println("       His age is : " + Dog.oldestDog(dog1, dog2, dog3).getAge());
 		System.out.println("        His beerd : " + Dog.oldestDog(dog1, dog2, dog3).getBreed());
-		System.out.println("=====================");
+		
 		
 		
 	}		
