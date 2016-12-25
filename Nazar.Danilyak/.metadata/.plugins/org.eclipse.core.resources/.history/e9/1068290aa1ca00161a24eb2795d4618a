@@ -1,0 +1,18 @@
+package Persone;
+
+public class Persone {
+	private int name;
+	private int birthYear;
+	
+	public int age(int year){
+		if(birthYear<=year){			
+		return year-birthYear;
+		}
+		else{
+System.err.println("error birthYear>=year");			
+			return 0;
+		}
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+package HW4.T3;
+
+public class Task3 {
+	private int[] array;
+
+	public Task3(int[] array) {
+
+		this.array = array;
+	}
+	public int indexTwoInt(){
+		int tempIndex
+		for (int i = 0; i < array.length; i++) {
+			
+		}
+	}
+}

@@ -1,0 +1,36 @@
+package Persone;
+
+public class Persone {
+	private String name;
+	private int birthYear;
+
+	public Persone() {
+		super();
+	}
+
+	public Persone(int name, int birthYear) {
+		super();
+		this.name = name;
+		this.birthYear = birthYear;
+	}
+
+	public int age(int year) {
+		if (birthYear <= year) {
+			return year - birthYear;
+		} else {
+			System.err.println("error birthYear>=year");
+			return 0;
+		}
+
+	}
+
+	public void input(String name, int birthYear) {
+		this.name = name;
+		this.birthYear = birthYear;
+	}
+
+	public String output() {
+		return "Persone [name=" + name + ", birthYear=" + birthYear + "]";
+	}
+
+}

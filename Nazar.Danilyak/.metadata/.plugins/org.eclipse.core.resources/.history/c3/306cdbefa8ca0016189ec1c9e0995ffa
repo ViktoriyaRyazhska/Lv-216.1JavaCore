@@ -1,0 +1,12 @@
+package HW4.T2;
+
+import java.awt.Checkbox;
+
+public class numbers {
+	private int[] array ;
+	private boolean check(){
+		boolean ckeck;
+		
+		return check;
+	}
+}

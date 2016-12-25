@@ -1,0 +1,15 @@
+package Main;
+
+import Persone.Persone;
+
+public class Main {
+	public static void main(String[] args) {
+		Persone persone1 = new Persone();
+		persone1.input("Test1", 12);
+		Persone persone2 = new Persone();
+		Persone persone3 = new Persone();
+		Persone persone4 = new Persone();
+		Persone persone5 = new Persone();
+		
+	}
+}

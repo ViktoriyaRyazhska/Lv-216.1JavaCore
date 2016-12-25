@@ -1,0 +1,14 @@
+package HW4.T4;
+
+import java.util.Scanner;
+
+public class Enter {
+Scanner sc = new Scanner(System.in);
+public int enter(){
+	summ
+	do{
+		
+	}
+	while()
+}
+}

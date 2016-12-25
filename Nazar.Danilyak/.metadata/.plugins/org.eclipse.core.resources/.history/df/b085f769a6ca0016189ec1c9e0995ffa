@@ -1,0 +1,6 @@
+package HW4.T1;
+
+public class Month {
+private int[] month = new int[12];
+
+}

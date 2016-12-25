@@ -1,0 +1,6 @@
+package HW4.T2;
+
+public class numbers {
+private int[] array = new int[10];
+
+}

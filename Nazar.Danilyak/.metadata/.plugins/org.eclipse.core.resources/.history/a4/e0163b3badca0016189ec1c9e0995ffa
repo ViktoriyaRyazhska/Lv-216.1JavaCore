@@ -1,0 +1,11 @@
+package HW4.T3;
+
+public class Task3 {
+private int[] array;
+
+public Task3(int[] array) {
+	super();
+	this.array = array;
+}
+
+}
