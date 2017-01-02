@@ -20,10 +20,10 @@ public class Student {
 	}
 
 	public void printStudents(List students,int course){
-		Iterator<List> iter = students.iterator();
+		Iterator<List> it = students.iterator();
 		Student stud = new Student();
-		while (iter.hasNext()) {
-			stud = (Student) iter.next();
+		while (it.hasNext()) {
+			stud = (Student) it.next();
 			if (stud.course == course){
 				System.out.println(stud);
 			}
