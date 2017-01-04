@@ -42,7 +42,6 @@ public class StringWork {
 		
 		System.out.println("Input sentence of five words ");
 		String sentence = scn.nextLine();
-		String ss = "Hello my name is vova";
 		String [] stc = sentence.split(" ");
 		
 /*	looking for a longest word in the sentence
@@ -65,6 +64,7 @@ public class StringWork {
 		for(int i = stc.length-1; i>=0;i--){
 			if(ind==1){
 				System.out.println("The second word in reverse order is :" + stc[i]);
+				break;
 			}
 			ind++;
 		}
