@@ -11,7 +11,7 @@ public class Main {
 			System.out.println(div(5.5, 5.5));
 		} catch (ArithmeticException e) {
 			// TODO: handle exception
-			e.getMessage();
+			System.out.println(e.getMessage());
 			e.printStackTrace();
 		} catch (Exception e) {
 			// TODO: handle exception
