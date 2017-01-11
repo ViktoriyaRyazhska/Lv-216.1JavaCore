@@ -46,12 +46,12 @@ public class Main {
 		
 		String text = null;
 		int count = 0;
-		FileReader fileReader = null;
+//		FileReader fileReader = null;
 		BufferedReader bufferedReader = null;
 		
 		try {
-			fileReader = new FileReader(fileName);
-			bufferedReader = new BufferedReader(fileReader);
+//			fileReader = new FileReader(fileName);
+			bufferedReader = new BufferedReader(new FileReader(fileName));
 			System.out.println("read data from file: " + fileName);
 	
 			while ((text = bufferedReader.readLine()) != null) {
@@ -116,6 +116,14 @@ public class Main {
 			if (matcher.find()) {
 				System.out.println(lines[i]);
 			}
+		}
+
+
+		try {
+			bufferedReader.close();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
 		
 	}
