@@ -1,0 +1,4 @@
+19
+Support LAN, support and administration of Windows 2003 Server, domain controller, database server and proxy server on Ubuntu. Ensure the efficiency of the database in FoxPro, Visual FoxPro, Oracle. Writing programs for internal purposes (Delphi, FoxPro). Samples of the Oracle database using SQL.
+Name: Mazur Yuriy
+Date of birth: 18/03/1984

@@ -1,0 +1,19 @@
+Name: Mazur Yuriy
+City: Sokal, Lviv region.
+Date of birth: 18/03/1984
+Marital status: Married
+Education: 2001-2006: Ivan Franko Lviv National University
+Faculty of Applied Mathematics and Informatics, systems analysis
+and management, master.
+Additional education: successfully completed courses at prometheus.org.ua:
+"Fundamentals of Software Testing"
+"Fundamentals of programming in python»,
+"Basic programming CS50».
+Pass rate in SoftServe IT Academy in the course of "Object-oriented programming. Java Core. "
+Objective: Successfully pass curriculum in SoftServe IT Academy in the direction
+«Java Development». Start a career junior Java developer and 3
+years to grow to a senior Java developer.
+Experience:
+2006-2016. STI in Sokal district,
+Specialist IT department.
+Support LAN, support and administration of Windows 2003 Server, domain controller, database server and proxy server on Ubuntu. Ensure the efficiency of the database in FoxPro, Visual FoxPro, Oracle. Writing programs for internal purposes (Delphi, FoxPro). Samples of the Oracle database using SQL.
