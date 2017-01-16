@@ -1,0 +1,1 @@
+INDEX VERSION 1.129+F:\GIT\pro.100.gave.ua\Pro.100.Game.Ua\.metadata\.plugins\org.eclipse.jdt.core

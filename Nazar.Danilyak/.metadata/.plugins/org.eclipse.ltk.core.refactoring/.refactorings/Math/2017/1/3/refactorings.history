@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Function&apos; to &apos;HW6/src&apos;&#x0D;&#x0A;- Original project: &apos;Math&apos;&#x0D;&#x0A;- Destination element: &apos;HW6/src&apos;&#x0D;&#x0A;- Original element: &apos;Function&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move folder" destination="=HW6/src" element1="Function" files="0" flags="589830" folders="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1484488810449" units="0" version="1.0"/>
+</session>
