@@ -1,0 +1,23 @@
+Vova, Ternopil,       2200 , 440 
+Vova, Rivne,           2400 , 480
+, ,0,0
+Vova, Lutsk,           2600 , 520
+Vova, Uzhgorod,     2800, 560
+, ,0,0
+, Vinnytsja,      3000, 600
+, Cherkasy,      3100, 620
+, Poltava,         3400,680
+, Chernigiv,      3700,740
+, ,0,0
+, ,0,0
+, Mykolaiv,       4000,800
+, Kherson,        4300, 860
+, Zaporizhzhia,  4400, 880
+, ,0,0
+, Odesa,           4900,980
+, ,0,0
+, Lviv,              5000,1000
+, Dnipro,          5300,1060
+, Kharkiv,         5500,1100
+, Kyiv,             6000,1200
+, ,0,0
